@@ -16,6 +16,13 @@ class MathsOperation:
 
         return value1 - value2
 
+    def product(self,
+                value1: Union[int, float],
+                value2: Union[int, float],
+                ) -> Union[int, float]:
+
+        return value1 * value2
+
 if __name__=="__main__":
     pass
     # obj = MathsOperation()
