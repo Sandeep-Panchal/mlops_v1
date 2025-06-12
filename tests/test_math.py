@@ -14,7 +14,7 @@ def test_subtraction():
     assert obj.subtraction(2,10) == -8
 
 def test_product():
-    assert obj.product(10,10) == 10
+    assert obj.product(10,10) == 100
     assert obj.product(2,10) == 20
 
 if __name__=="__main__":
